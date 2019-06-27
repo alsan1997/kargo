@@ -1,0 +1,1 @@
+{"jobs": [{"jobs_date": "2018-01-12", "jobs_id": 1, "jobs_budget": 8000, "jobs_origin": "JKT", "jobs_dest": "SBY"}, {"jobs_date": "2017-04-29", "jobs_id": 2, "jobs_budget": 10000, "jobs_origin": "DEN", "jobs_dest": "BDG"}, {"jobs_date": "2017-04-11", "jobs_id": 3, "jobs_budget": 2000, "jobs_origin": "MDN", "jobs_dest": "SMG"}], "bids": []}

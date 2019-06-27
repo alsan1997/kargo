@@ -1,6 +1,6 @@
 1. Create python file (kargoapi.py) 
 2. Create json file (dummy data jobs and bids)
-3. Create another python file for REST API using Flask (kargorestapi.py)
+3. Create another python file for REST API using Flask (kargoflask.py)
 4. Create function: to get dummy data (jobs and bids)
 5. Create Sorting function
 
