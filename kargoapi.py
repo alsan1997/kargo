@@ -23,8 +23,16 @@ def create_dummy():
         data['jobs'].append({'jobs_date':jobs_date[i],'jobs_id':jobs_id[i],'jobs_budget': jobs_budget[i], 'jobs_origin':jobs_origin[i], 'jobs_dest':jobs_dest[i]})
         i = i + 1
 
-    for j in data['jobs']:
-        print(j)
+    bids_price = [9000, 3200, 5000]
+    bids_vehicle = ["Tronton", "Pickup", "Fuso"]
+    bids_id = [1,2,3]
+    
+    i = 0
+    for j in jobs_budget:
+        data['bids'].append({'bids_price':bids_price[i],'bids_vehicle':bids_vehicle[i],'bids_id': bids_id[i]})
+        i = i + 1
+
+    
 if __name__ == '__main__':
     
     create_dummy()
